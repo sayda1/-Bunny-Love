@@ -1,23 +1,195 @@
-header ul li {
+*{
+    outline: 1px solid  pink;
+}
+body{
+   margin: 0;
+    padding: 0;
+    background: rgba(198, 232, 239, 0.58);
+}
+/*----------------------------------------------------------clases generales----*/
+.container{
+    margin: 0 auto;
+    width:95%;  
+}
+.row{
+    width:1050px;
+   
+    margin: 0 auto;
+}
+/*----------------------------------------------header---*/
+header{
+    background: #28748b;
+}
+.menu_bar{
+    display: none;
+    
+}
+header h4{
+    color: white;
+    font-size: 33px;
+    margin: 15px;
+   font-family: 'Baloo Paaji', cursive;
+}
+header span{
+    color: #ff5d08;
+}
+header nav ul {
+     overflow: hidden;
     list-style: none;
 }
-.nav li a{
-    background:  black;
+
+header nav ul li {
+    float: right;
+}
+
+header nav ul li a{
     color: white;
+    padding:15px;
     text-decoration: none;
-    padding: 10px 15px;
-    display: block;
+    display:block;
 }
-.nav li a:hover{
-    background-color: aqua;
-     display: block;
+
+header nav ul li a:hover{
+    background: black;
 }
-.nav>li{
-    float:right;
+
+/*---------------------------------------section --conejo----grande---*/
+.conejo-grande .row{
+    background-image: url(../img/img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:;
 }
-.nav ul li {
-    display: none;
+
+.caja-1{
+    background: rgba(40, 116, 139, 0.85);
+    text-align: center;
+    margin: 130px;
+    box-sizing: border-box;
+   
 }
-.nav li:hover > ul{
-   display: block;
+.caja-1 h1{
+    font-family: 'Baloo Paaji', cursive;
+    font-size:80px;
+    color:  #ff5d08;
 }
+.caja-1 ul li{
+    list-style: none;
+    display: inline-block;
+    color: aliceblue;
+    font-size:20px;
+    margin-bottom: 20px;
+}
+.caja-1 span{
+    margin: 10px;
+}
+/*---------------------------------varios--conejitos---SECTION--DOS---*/
+.dos .row{
+    background:white;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.dos .col-3{
+    text-align: center;
+    box-sizing: border-box;
+    padding:10px;
+}
+.rabit{
+    margin: 0;
+    background-color: #28748b;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+}
+.rabit .titulos{
+    font-family: 'Baloo Paaji';
+    color: #ff5d08;
+    font-size: 20px;
+}
+/*--------------------------------SECTION---TRES------dos--conejos--*/
+.tres h5{
+    font-family: 'Baloo Paaji';
+    color: #ff5d08;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0px;
+    
+}
+.tres .row{
+    background:#28748b;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.tres .col-7{
+    box-sizing: border-box;
+    padding: 0px 20px 0px 0px;
+}
+.imagen , .video{
+    background: #c9e9f0;
+    font-family: 'Prompt', sans-serif;
+}
+.video p{
+    padding: 20px;
+}
+.imagen p {
+    margin: 0;
+    padding: 20px;
+    
+}
+.tres span{
+    margin:0px 20px; 
+}
+/*--------------------------------------col-5----iconos-------------------------*/
+.conejo ,.about ,.iconos{
+    background:#c9e9f0;
+}
+.about{
+    box-sizing: border-box; 
+}
+.caja-input {
+    background: #b7e9f7;
+    border-radius:10px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 25px;
+   margin-bottom: 15px;
+}
+.caja-input input{
+    font-family: 'Prompt';
+    font-size: 16px;
+    background:#e8f3f5;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius:8px;
+}
+.about p{
+   font-family: 'Prompt';
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.about i{
+    padding: 10px;
+    border-radius: 100%;
+    margin: 10px;
+    background:white;
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+}
+.conejo{
+    margin-top: 30px;
+    font-family: 'Prompt';
+    padding: 20px;
+}
+/*-----------------------------------------------section----------------------------cuatro--conejios-----*/
+.conejitos .container{
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 48px;
+    background-image:url(../img/bunny-head.png);
+    background-position: center;
+    background-size:14%;
+    background-repeat: repeat;
+}
+
