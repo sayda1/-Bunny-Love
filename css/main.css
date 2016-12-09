@@ -200,7 +200,26 @@ footer{
     color: white;
     text-align: center;
     margin-top: 30px;
-   
 }
+@media screen and (max-width: 990px) and (min-width: 768px) {
+    .row
+	{
+		width:700px;
+	}
+    .col-3{
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 990px)and(min-width: 768px) {
+    .contenedor
+	{
+		width: 100%;
+	}
+    
+}
+
 
 
